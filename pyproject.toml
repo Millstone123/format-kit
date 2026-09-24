@@ -1,6 +1,10 @@
 [project]
 name = "format-kit"
-version = "0.3.0"
+version = "0.3.1"
 requires-python = ">=3.8"
-[tool.pytest.ini_options]
-testpaths = ["tests"]
+dependencies = ["style-profile @ https://github.com/Millstone123/style-profiles-data/releases/download/v3.0.0/style-profile-3.0.0.tar.gz"]
+[project.scripts]
+format-kit = "format_kit.formatter:format_text"
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
