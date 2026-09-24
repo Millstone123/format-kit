@@ -2,7 +2,7 @@
 name = "format-kit"
 version = "0.4.0"
 requires-python = ">=3.8"
-dependencies = ["style-profile @ https://github.com/Millstone123/style-profiles-data/releases/download/v4.0.1/style-profile-4.0.1.tar.gz"]
+dependencies = ["style-profile @ https://github.com/Millstone123/style-profiles-data/releases/download/v4.0.2/style-profile-4.0.2.tar.gz"]
 [project.scripts]
 format-kit = "format_kit.formatter:format_text"
 [build-system]
