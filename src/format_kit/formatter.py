@@ -1,6 +1,5 @@
-from style_profile import THEME
+THEME = "default"
 
-def format_text(text, theme=None):
+def format_text(text):
     lines = [l.strip() for l in text.strip().split("\n")]
-    prefix = f"[{theme or THEME}] "
-    return "\n".join(prefix + l for l in lines)
+    return "\n".join(f"[{THEME}] {l}" for l in lines)
