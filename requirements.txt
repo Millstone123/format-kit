@@ -1,1 +1,1 @@
-style-profile @ https://github.com/Millstone123/style-profiles-data/releases/download/v2.0.0/style_profile-2.0.0-py3-none-any.whl
+style-profile @ https://github.com/Millstone123/style-profiles-data/releases/download/v3.0.0/style_profile-3.0.0-py3-none-any.whl
